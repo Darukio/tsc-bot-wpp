@@ -156,3 +156,6 @@ shell.nix
 .claude/
 .windsurf/
 skills-lock.json
+
+# SQLite
+*.db
