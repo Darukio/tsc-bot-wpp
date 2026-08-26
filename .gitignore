@@ -141,3 +141,18 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Generated Prisma Client (usar pnpm prisma generate en su lugar)
+/src/generated/prisma
+
+# Session data de WhatsApp (credenciales)
+auth_info_baileys/
+
+# Nix shell configuration
+shell.nix
+
+# Agent directories
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
